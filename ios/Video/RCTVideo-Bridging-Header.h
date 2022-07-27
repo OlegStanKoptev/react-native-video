@@ -1,13 +1,7 @@
-//
-//  RCTVideo-Bridging-Header.h
-//  RCTVideo
-//
-//  Created by Oleg Koptev on 27.07.2022.
-//  Copyright © 2022 Facebook. All rights reserved.
-//
+#import <React/RCTViewManager.h>
+#import "RCTSwiftLog.h"
 
-#ifndef RCTVideo_Bridging_Header_h
-#define RCTVideo_Bridging_Header_h
+#if __has_include(<react-native-video/RCTVideoCache.h>)
+#import "RCTVideoCache.h"
+#endif
 
-
-#endif /* RCTVideo_Bridging_Header_h */

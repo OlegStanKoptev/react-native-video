@@ -52,6 +52,14 @@
 		D1107C092110259000073188 /* RCTVideoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTVideoManager.h; path = Video/RCTVideoManager.h; sourceTree = "<group>"; };
 		DC1EAA572891182700A82141 /* DataStructures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DataStructures; path = Video/DataStructures; sourceTree = "<group>"; };
 		DC1EAA582891182700A82141 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Features; path = Video/Features; sourceTree = "<group>"; };
+		DC1EAA59289118D100A82141 /* RCTSwiftLog */ = {isa = PBXFileReference; lastKnownFileType = folder; name = RCTSwiftLog; path = Video/RCTSwiftLog; sourceTree = "<group>"; };
+		DC1EAA5A289118D100A82141 /* RCTVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RCTVideo.swift; path = Video/RCTVideo.swift; sourceTree = "<group>"; };
+		DC1EAA5B289118D100A82141 /* RCTVideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RCTVideoPlayerViewController.swift; path = Video/RCTVideoPlayerViewController.swift; sourceTree = "<group>"; };
+		DC1EAA5C289118D100A82141 /* DataStructures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DataStructures; path = Video/DataStructures; sourceTree = "<group>"; };
+		DC1EAA5D289118D100A82141 /* RCTVideoPlayerViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RCTVideoPlayerViewControllerDelegate.swift; path = Video/RCTVideoPlayerViewControllerDelegate.swift; sourceTree = "<group>"; };
+		DC1EAA5E289118D100A82141 /* UIView+FindUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+FindUIViewController.swift"; path = "Video/UIView+FindUIViewController.swift"; sourceTree = "<group>"; };
+		DC1EAA5F289118D100A82141 /* RCTVideoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RCTVideoManager.swift; path = Video/RCTVideoManager.swift; sourceTree = "<group>"; };
+		DC1EAA60289118D100A82141 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Features; path = Video/Features; sourceTree = "<group>"; };
 		DC2A189528910E4B0099B9B2 /* RCTVideo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RCTVideo-Bridging-Header.h"; path = "Video/RCTVideo-Bridging-Header.h"; sourceTree = "<group>"; };
 		DC2A1896289117090099B9B2 /* RCTSwiftLog */ = {isa = PBXFileReference; lastKnownFileType = folder; name = RCTSwiftLog; path = Video/RCTSwiftLog; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,7 +102,15 @@
 			children = (
 				DC1EAA572891182700A82141 /* DataStructures */,
 				DC1EAA582891182700A82141 /* Features */,
+				DC1EAA5C289118D100A82141 /* DataStructures */,
+				DC1EAA60289118D100A82141 /* Features */,
 				DC2A1896289117090099B9B2 /* RCTSwiftLog */,
+				DC1EAA59289118D100A82141 /* RCTSwiftLog */,
+				DC1EAA5A289118D100A82141 /* RCTVideo.swift */,
+				DC1EAA5F289118D100A82141 /* RCTVideoManager.swift */,
+				DC1EAA5B289118D100A82141 /* RCTVideoPlayerViewController.swift */,
+				DC1EAA5D289118D100A82141 /* RCTVideoPlayerViewControllerDelegate.swift */,
+				DC1EAA5E289118D100A82141 /* UIView+FindUIViewController.swift */,
 				D1107C072110259000073188 /* RCTVideo.h */,
 				D1107C052110259000073188 /* RCTVideo.m */,
 				D1107C092110259000073188 /* RCTVideoManager.h */,
