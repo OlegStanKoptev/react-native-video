@@ -50,6 +50,8 @@
 		D1107C072110259000073188 /* RCTVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTVideo.h; path = Video/RCTVideo.h; sourceTree = "<group>"; };
 		D1107C082110259000073188 /* RCTVideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTVideoPlayerViewController.m; path = Video/RCTVideoPlayerViewController.m; sourceTree = "<group>"; };
 		D1107C092110259000073188 /* RCTVideoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTVideoManager.h; path = Video/RCTVideoManager.h; sourceTree = "<group>"; };
+		DC1EAA572891182700A82141 /* DataStructures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DataStructures; path = Video/DataStructures; sourceTree = "<group>"; };
+		DC1EAA582891182700A82141 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Features; path = Video/Features; sourceTree = "<group>"; };
 		DC2A189528910E4B0099B9B2 /* RCTVideo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RCTVideo-Bridging-Header.h"; path = "Video/RCTVideo-Bridging-Header.h"; sourceTree = "<group>"; };
 		DC2A1896289117090099B9B2 /* RCTSwiftLog */ = {isa = PBXFileReference; lastKnownFileType = folder; name = RCTSwiftLog; path = Video/RCTSwiftLog; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +92,8 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				DC1EAA572891182700A82141 /* DataStructures */,
+				DC1EAA582891182700A82141 /* Features */,
 				DC2A1896289117090099B9B2 /* RCTSwiftLog */,
 				D1107C072110259000073188 /* RCTVideo.h */,
 				D1107C052110259000073188 /* RCTVideo.m */,
